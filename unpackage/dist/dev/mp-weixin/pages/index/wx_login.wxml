@@ -1,0 +1,1 @@
+<view><button bindtap="{{a}}">登录</button></view>

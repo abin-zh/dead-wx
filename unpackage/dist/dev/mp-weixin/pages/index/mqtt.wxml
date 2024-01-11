@@ -1,0 +1,1 @@
+<view><view class="uni-common-mt"><view class="uni-form-item uni-column"><view class="title">主题</view><input class="uni-input" placeholder="输入主题" value="{{a}}"/></view><button bindtap="{{b}}" type="primary">连接</button></view><view class="msg_list"><text>消息列表</text><things wx:for="{{c}}" wx:for-item="item" u-i="{{item.a}}" bind:__l="__l" u-p="{{item.b}}"/></view></view>
